@@ -1,0 +1,503 @@
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Global model initialized using pretrained model
+Round 1 --------------------------------
+Domain: mnist_m, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: syn, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: svhn, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: usps, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Round   1, Average loss 1.150
+Round 1, Domain: mnist_m, Testing accuracy: 50.67
+Round 1, Domain: syn, Testing accuracy: 49.31
+Round 1, Domain: svhn, Testing accuracy: 36.98
+Round 1, Domain: usps, Testing accuracy: 88.06
+Round 2 --------------------------------
+Domain: mnist_m, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: syn, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: svhn, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: usps, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Round   2, Average loss 0.884
+Round 2, Domain: mnist_m, Testing accuracy: 61.02
+Round 2, Domain: syn, Testing accuracy: 65.87
+Round 2, Domain: svhn, Testing accuracy: 51.56
+Round 2, Domain: usps, Testing accuracy: 90.00
+Round 3 --------------------------------
+Domain: mnist_m, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: syn, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: svhn, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: usps, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Round   3, Average loss 0.772
+Round 3, Domain: mnist_m, Testing accuracy: 64.99
+Round 3, Domain: syn, Testing accuracy: 70.80
+Round 3, Domain: svhn, Testing accuracy: 57.72
+Round 3, Domain: usps, Testing accuracy: 90.16
+Round 4 --------------------------------
+Domain: mnist_m, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: mnist_m, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 10976 samples from 10976 imgs
+Selected 10976 samples from 10976 imgs
+Domain: syn, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: syn, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 4992 samples from 4992 imgs
+Selected 4992 samples from 4992 imgs
+Domain: svhn, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: svhn, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 14624 samples from 14624 imgs
+Selected 14624 samples from 14624 imgs
+Domain: usps, user idx: 0
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 1
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 2
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 3
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs
+Domain: usps, user idx: 4
+>>>>>>>>>>>>>>>>>>> VGG 9 >>>>>>>>>>>>>>>>>>>>>>
+20 time steps per batchnorm
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selected 1472 samples from 1472 imgs
+Selected 1472 samples from 1472 imgs

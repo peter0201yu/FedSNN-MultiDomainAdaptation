@@ -1,0 +1,14 @@
+Global model initialized using pretrained model
+Round 1 --------------------------------
+Domain: mnist_m, user idx: 0
+Traceback (most recent call last):
+  File "fed_mda_simplified.py", line 97, in <module>
+    w, loss = local.mda_train(net=model_copy.to(args.device))
+  File "/gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/models/Update.py", line 110, in mda_train
+    train_dl = DataLoader(confident_train_dataset, batch_size=batch_size, shuffle=True, drop_last=True)
+  File "/gpfs/loomis/project/panda/zy264/conda_envs/py38/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 277, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+  File "/gpfs/loomis/project/panda/zy264/conda_envs/py38/lib/python3.8/site-packages/torch/utils/data/sampler.py", line 97, in __init__
+    raise ValueError("num_samples should be a positive integer "
+ValueError: num_samples should be a positive integer value, but got num_samples=0
+Selected 0 samples from 11000 imgs

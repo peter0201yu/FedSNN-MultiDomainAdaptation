@@ -1,0 +1,373 @@
+2022-07-24 23:31:39,221 INFO    MainThread:13854 [internal.py:wandb_internal():90] W&B internal server running at pid: 13854, started at: 2022-07-24 23:31:39.220180
+2022-07-24 23:31:39,224 INFO    WriterThread:13854 [datastore.py:open_for_write():75] open: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/run-t808e3nu.wandb
+2022-07-24 23:31:39,230 DEBUG   SenderThread:13854 [sender.py:send():235] send: header
+2022-07-24 23:31:39,230 DEBUG   SenderThread:13854 [sender.py:send():235] send: run
+2022-07-24 23:31:39,418 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: check_version
+2022-07-24 23:31:39,427 INFO    SenderThread:13854 [dir_watcher.py:__init__():205] watching files in: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files
+2022-07-24 23:31:39,427 INFO    SenderThread:13854 [sender.py:_start_run_threads():812] run started: t808e3nu with start time 1658719898
+2022-07-24 23:31:39,427 DEBUG   SenderThread:13854 [sender.py:send():235] send: summary
+2022-07-24 23:31:39,429 INFO    SenderThread:13854 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-24 23:31:39,429 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: check_version
+2022-07-24 23:31:39,569 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: run_start
+2022-07-24 23:31:39,578 DEBUG   HandlerThread:13854 [meta.py:__init__():35] meta init
+2022-07-24 23:31:39,578 DEBUG   HandlerThread:13854 [meta.py:__init__():49] meta init done
+2022-07-24 23:31:39,578 DEBUG   HandlerThread:13854 [meta.py:probe():209] probe
+2022-07-24 23:31:39,584 DEBUG   HandlerThread:13854 [git.py:repo():29] git repository is invalid
+2022-07-24 23:31:39,585 DEBUG   HandlerThread:13854 [meta.py:_save_pip():53] save pip
+2022-07-24 23:31:39,586 DEBUG   HandlerThread:13854 [meta.py:_save_pip():67] save pip done
+2022-07-24 23:31:39,586 DEBUG   HandlerThread:13854 [meta.py:_save_conda():74] save conda
+2022-07-24 23:31:40,431 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_created():256] file/dir created: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/requirements.txt
+2022-07-24 23:31:40,432 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_created():256] file/dir created: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/wandb-summary.json
+2022-07-24 23:31:40,433 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_created():256] file/dir created: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/conda-environment.yaml
+2022-07-24 23:31:43,090 DEBUG   HandlerThread:13854 [meta.py:_save_conda():84] save conda done
+2022-07-24 23:31:43,090 DEBUG   HandlerThread:13854 [meta.py:probe():247] probe done
+2022-07-24 23:31:43,160 DEBUG   SenderThread:13854 [sender.py:send():235] send: files
+2022-07-24 23:31:43,160 INFO    SenderThread:13854 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-24 23:31:43,171 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:31:43,171 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:31:43,434 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/conda-environment.yaml
+2022-07-24 23:31:43,435 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_created():256] file/dir created: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:31:43,435 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_created():256] file/dir created: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/wandb-metadata.json
+2022-07-24 23:31:43,454 DEBUG   SenderThread:13854 [sender.py:send():235] send: telemetry
+2022-07-24 23:31:43,808 INFO    Thread-11 :13854 [upload_job.py:push():132] Uploaded file /tmp/tmpy4_l15nkwandb/1pe7zfis-wandb-metadata.json
+2022-07-24 23:31:47,437 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:31:58,461 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:31:58,461 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:31:59,444 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:32:07,448 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:32:07,846 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:32:10,450 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/config.yaml
+2022-07-24 23:32:13,606 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:32:13,607 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:32:19,455 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:32:27,459 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:32:28,759 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:32:28,760 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:32:29,461 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:32:38,117 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:32:39,466 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:32:43,907 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:32:43,908 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:32:47,470 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:32:49,472 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:32:59,051 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:32:59,052 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:33:01,478 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:33:07,481 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:33:08,368 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:33:09,483 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:33:14,201 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:33:14,201 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:33:29,346 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:33:29,347 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:33:33,496 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:33:38,634 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:33:41,500 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:33:43,502 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:33:44,527 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:33:44,527 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:33:57,509 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:33:59,511 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:33:59,672 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:33:59,673 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:34:07,515 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:34:08,902 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:34:09,516 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:34:14,824 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:34:14,825 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:34:17,521 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:34:21,523 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:34:27,527 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:34:30,142 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:34:30,143 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:34:31,529 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:34:37,532 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:34:39,171 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:34:41,534 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:34:45,284 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:34:45,284 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:34:57,543 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:35:00,428 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:35:00,429 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:35:05,547 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:35:09,435 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:35:15,574 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:35:15,575 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:35:23,557 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:35:30,725 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:35:30,725 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:35:31,561 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:35:39,705 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:35:45,865 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:35:45,865 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:35:47,569 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:35:55,573 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:01,007 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:36:01,008 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:36:09,968 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:36:13,583 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:16,250 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:36:16,250 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:36:21,589 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:31,397 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:36:31,398 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:36:37,597 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:40,233 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:36:45,602 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:46,548 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:36:46,548 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:36:47,603 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:49,604 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:51,605 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:53,606 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:55,608 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:57,609 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:36:59,610 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:37:01,611 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:37:01,701 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:37:01,701 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:37:03,612 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:37:05,613 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:37:10,484 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:37:15,151 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-24 23:37:15,153 DEBUG   SenderThread:13854 [sender.py:send():235] send: history
+2022-07-24 23:37:15,153 DEBUG   SenderThread:13854 [sender.py:send():235] send: summary
+2022-07-24 23:37:15,155 INFO    SenderThread:13854 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-24 23:37:15,619 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/wandb-summary.json
+2022-07-24 23:37:16,844 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:37:16,845 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:37:17,620 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:37:25,393 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-24 23:37:25,394 DEBUG   SenderThread:13854 [sender.py:send():235] send: history
+2022-07-24 23:37:25,395 DEBUG   SenderThread:13854 [sender.py:send():235] send: summary
+2022-07-24 23:37:25,396 INFO    SenderThread:13854 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-24 23:37:25,624 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:37:25,625 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/wandb-summary.json
+2022-07-24 23:37:31,992 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:37:31,993 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:37:40,747 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:37:47,152 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:37:47,152 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:37:56,295 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-24 23:37:56,296 DEBUG   SenderThread:13854 [sender.py:send():235] send: history
+2022-07-24 23:37:56,296 DEBUG   SenderThread:13854 [sender.py:send():235] send: summary
+2022-07-24 23:37:56,297 INFO    SenderThread:13854 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-24 23:37:56,642 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/wandb-summary.json
+2022-07-24 23:37:57,642 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:37:58,366 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-24 23:37:58,367 DEBUG   SenderThread:13854 [sender.py:send():235] send: history
+2022-07-24 23:37:58,368 DEBUG   SenderThread:13854 [sender.py:send():235] send: summary
+2022-07-24 23:37:58,369 INFO    SenderThread:13854 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-24 23:37:58,643 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/wandb-summary.json
+2022-07-24 23:37:59,643 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:38:02,293 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:38:02,293 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:38:11,015 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:38:17,434 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:38:17,434 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:38:20,655 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:38:28,659 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:38:30,660 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:38:32,749 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:38:32,749 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:38:41,273 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:38:47,895 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:38:47,895 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:38:54,672 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:39:02,677 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:39:03,056 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:39:03,056 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:39:04,678 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:39:11,535 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:39:18,203 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:39:18,204 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:39:26,690 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:39:33,355 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:39:33,355 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:39:34,694 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:39:36,695 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:39:41,795 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:39:48,495 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:39:48,496 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:39:52,704 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:00,709 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:02,710 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:03,635 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:40:03,635 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:40:12,055 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:40:16,718 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:18,786 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:40:18,787 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:40:22,721 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:24,722 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:32,727 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:33,952 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:40:33,952 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:40:34,728 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:40,731 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:42,318 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:40:42,733 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:44,734 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:48,736 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:49,125 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:40:49,126 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:40:52,739 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:40:56,741 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:41:00,744 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:41:04,265 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:41:04,266 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:41:06,747 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:41:08,748 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:41:12,587 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:41:19,422 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-24 23:41:19,422 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: stop_status
+2022-07-24 23:41:30,647 WARNING MainThread:13854 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-07-24 23:41:30,688 DEBUG   SenderThread:13854 [sender.py:send():235] send: telemetry
+2022-07-24 23:41:32,761 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:41:33,364 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:33,365 DEBUG   SenderThread:13854 [sender.py:send():235] send: exit
+2022-07-24 23:41:33,365 INFO    SenderThread:13854 [sender.py:send_exit():371] handling exit code: 255
+2022-07-24 23:41:33,366 INFO    SenderThread:13854 [sender.py:send_exit():373] handling runtime: 593
+2022-07-24 23:41:33,367 INFO    SenderThread:13854 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-24 23:41:33,367 INFO    SenderThread:13854 [sender.py:send_exit():379] send defer
+2022-07-24 23:41:33,367 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:33,368 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:33,369 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 0
+2022-07-24 23:41:33,369 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:33,369 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-07-24 23:41:33,369 INFO    SenderThread:13854 [sender.py:transition_state():392] send defer: 1
+2022-07-24 23:41:33,369 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:33,370 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 1
+2022-07-24 23:41:33,475 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:33,475 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:33,476 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-07-24 23:41:33,476 INFO    SenderThread:13854 [sender.py:transition_state():392] send defer: 2
+2022-07-24 23:41:33,476 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:33,476 DEBUG   SenderThread:13854 [sender.py:send():235] send: stats
+2022-07-24 23:41:33,477 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:33,478 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 2
+2022-07-24 23:41:33,478 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:33,478 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-07-24 23:41:33,478 INFO    SenderThread:13854 [sender.py:transition_state():392] send defer: 3
+2022-07-24 23:41:33,479 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:33,479 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 3
+2022-07-24 23:41:33,479 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:33,479 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-07-24 23:41:33,479 INFO    SenderThread:13854 [sender.py:transition_state():392] send defer: 4
+2022-07-24 23:41:33,479 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:33,480 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 4
+2022-07-24 23:41:33,480 DEBUG   SenderThread:13854 [sender.py:send():235] send: summary
+2022-07-24 23:41:33,481 INFO    SenderThread:13854 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-24 23:41:33,481 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:33,481 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-07-24 23:41:33,481 INFO    SenderThread:13854 [sender.py:transition_state():392] send defer: 5
+2022-07-24 23:41:33,481 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:33,481 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 5
+2022-07-24 23:41:33,481 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:33,482 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-07-24 23:41:33,578 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:33,690 INFO    SenderThread:13854 [sender.py:transition_state():392] send defer: 6
+2022-07-24 23:41:33,690 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:33,690 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:33,691 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 6
+2022-07-24 23:41:33,691 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:33,691 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-07-24 23:41:33,691 INFO    SenderThread:13854 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-07-24 23:41:33,762 INFO    Thread-7  :13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:41:33,762 INFO    SenderThread:13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/wandb-summary.json
+2022-07-24 23:41:33,762 INFO    SenderThread:13854 [dir_watcher.py:_on_file_modified():269] file/dir modified: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/config.yaml
+2022-07-24 23:41:33,763 INFO    SenderThread:13854 [dir_watcher.py:finish():366] scan: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files
+2022-07-24 23:41:33,763 INFO    SenderThread:13854 [dir_watcher.py:finish():380] scan save: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/conda-environment.yaml conda-environment.yaml
+2022-07-24 23:41:33,763 INFO    SenderThread:13854 [dir_watcher.py:finish():380] scan save: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/wandb-metadata.json wandb-metadata.json
+2022-07-24 23:41:33,763 INFO    SenderThread:13854 [dir_watcher.py:finish():380] scan save: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/config.yaml config.yaml
+2022-07-24 23:41:33,769 INFO    SenderThread:13854 [dir_watcher.py:finish():380] scan save: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/requirements.txt requirements.txt
+2022-07-24 23:41:33,776 INFO    SenderThread:13854 [dir_watcher.py:finish():380] scan save: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/wandb-summary.json wandb-summary.json
+2022-07-24 23:41:33,780 INFO    SenderThread:13854 [dir_watcher.py:finish():380] scan save: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log output.log
+2022-07-24 23:41:33,788 INFO    SenderThread:13854 [sender.py:transition_state():392] send defer: 7
+2022-07-24 23:41:33,796 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:33,796 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 7
+2022-07-24 23:41:33,796 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:33,796 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:33,797 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-07-24 23:41:33,797 INFO    SenderThread:13854 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-24 23:41:33,797 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:33,900 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:33,900 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:34,002 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:34,002 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:34,103 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:34,103 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:34,205 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:34,205 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:34,307 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:34,307 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:34,409 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:34,409 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:34,510 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:34,511 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:34,612 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:34,612 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:34,714 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:34,714 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:34,820 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:34,822 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:34,923 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:34,924 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:35,025 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:35,025 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:35,126 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:35,127 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:35,228 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:35,229 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:35,330 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:35,331 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:35,432 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:35,433 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:35,535 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:35,535 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:35,637 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:35,637 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:35,704 INFO    Thread-12 :13854 [upload_job.py:push():132] Uploaded file /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/conda-environment.yaml
+2022-07-24 23:41:35,739 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:35,739 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:35,841 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:35,842 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:35,924 INFO    Thread-14 :13854 [upload_job.py:push():132] Uploaded file /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/requirements.txt
+2022-07-24 23:41:35,948 INFO    Thread-13 :13854 [upload_job.py:push():132] Uploaded file /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/config.yaml
+2022-07-24 23:41:35,948 INFO    Thread-16 :13854 [upload_job.py:push():132] Uploaded file /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/output.log
+2022-07-24 23:41:35,949 INFO    Thread-15 :13854 [upload_job.py:push():132] Uploaded file /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/files/wandb-summary.json
+2022-07-24 23:41:35,949 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:35,950 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:36,052 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:36,052 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:36,150 INFO    Thread-6  :13854 [sender.py:transition_state():392] send defer: 8
+2022-07-24 23:41:36,150 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:36,150 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 8
+2022-07-24 23:41:36,151 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:36,151 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-07-24 23:41:36,154 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:36,449 INFO    SenderThread:13854 [sender.py:transition_state():392] send defer: 9
+2022-07-24 23:41:36,449 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:36,449 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:36,450 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 9
+2022-07-24 23:41:36,450 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:36,450 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-07-24 23:41:36,451 INFO    SenderThread:13854 [sender.py:transition_state():392] send defer: 10
+2022-07-24 23:41:36,451 DEBUG   SenderThread:13854 [sender.py:send():235] send: final
+2022-07-24 23:41:36,452 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: defer
+2022-07-24 23:41:36,452 DEBUG   SenderThread:13854 [sender.py:send():235] send: footer
+2022-07-24 23:41:36,452 INFO    HandlerThread:13854 [handler.py:handle_request_defer():164] handle defer: 10
+2022-07-24 23:41:36,452 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: defer
+2022-07-24 23:41:36,452 INFO    SenderThread:13854 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-07-24 23:41:36,551 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-24 23:41:36,552 DEBUG   SenderThread:13854 [sender.py:send_request():249] send_request: poll_exit
+2022-07-24 23:41:36,552 INFO    SenderThread:13854 [file_pusher.py:join():150] waiting for file pusher
+2022-07-24 23:41:36,925 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: sampled_history
+2022-07-24 23:41:36,927 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: get_summary
+2022-07-24 23:41:36,928 DEBUG   HandlerThread:13854 [handler.py:handle_request():141] handle_request: shutdown
+2022-07-24 23:41:36,928 INFO    HandlerThread:13854 [handler.py:finish():806] shutting down handler
+2022-07-24 23:41:37,452 INFO    WriterThread:13854 [datastore.py:close():279] close: /gpfs/loomis/scratch60/panda/zy264/FedMDA/MDA/wandb/run-20220724_233138-t808e3nu/run-t808e3nu.wandb
+2022-07-24 23:41:37,823 INFO    SenderThread:13854 [sender.py:finish():1111] shutting down sender
+2022-07-24 23:41:37,823 INFO    SenderThread:13854 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-24 23:41:37,823 INFO    SenderThread:13854 [file_pusher.py:join():150] waiting for file pusher
+2022-07-24 23:41:37,827 INFO    MainThread:13854 [internal.py:handle_exit():80] Internal process exited

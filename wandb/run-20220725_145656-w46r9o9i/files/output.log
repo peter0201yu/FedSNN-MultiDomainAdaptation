@@ -1,0 +1,1321 @@
+Global model initialized using pretrained model
+Round 1 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 6200 samples from 11000 imgs
+Selected 5803 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 6106 samples from 11000 imgs
+Selected 6129 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 6184 samples from 11000 imgs
+Selected 5509 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 6236 samples from 11000 imgs
+Selected 6022 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 6099 samples from 11000 imgs
+Selected 5804 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 2111 samples from 5000 imgs
+Selected 1790 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 2106 samples from 5000 imgs
+Selected 1675 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 2073 samples from 5000 imgs
+Selected 1656 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 2070 samples from 5000 imgs
+Selected 1692 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 2073 samples from 5000 imgs
+Selected 1698 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 4390 samples from 14651 imgs
+Selected 2637 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 4309 samples from 14651 imgs
+Selected 2468 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 4301 samples from 14651 imgs
+Selected 2155 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 4458 samples from 14651 imgs
+Selected 2501 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 4294 samples from 14651 imgs
+Selected 2939 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1178 samples from 1487 imgs
+Selected 1342 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1198 samples from 1487 imgs
+Selected 1337 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1201 samples from 1487 imgs
+Selected 1348 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1209 samples from 1487 imgs
+Selected 1340 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1190 samples from 1487 imgs
+Selected 1333 samples from 1487 imgs
+Round   1, Average loss 1.733
+Round 1, Domain: mnist_m, Testing accuracy: 53.65
+Round 1, Domain: syn, Testing accuracy: 50.41
+Round 1, Domain: svhn, Testing accuracy: 41.10
+Round 1, Domain: usps, Testing accuracy: 91.18
+Round 2 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 4492 samples from 11000 imgs
+Selected 5510 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 4563 samples from 11000 imgs
+Selected 5774 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 4476 samples from 11000 imgs
+Selected 5536 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 4587 samples from 11000 imgs
+Selected 5724 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 4506 samples from 11000 imgs
+Selected 5742 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 2169 samples from 5000 imgs
+Selected 2190 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 2125 samples from 5000 imgs
+Selected 2130 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 2111 samples from 5000 imgs
+Selected 2087 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 2077 samples from 5000 imgs
+Selected 2103 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 2096 samples from 5000 imgs
+Selected 2185 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 1137 samples from 14651 imgs
+Selected 1767 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 1116 samples from 14651 imgs
+Selected 2033 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 1111 samples from 14651 imgs
+Selected 1832 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 1039 samples from 14651 imgs
+Selected 2065 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 1132 samples from 14651 imgs
+Selected 2082 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1277 samples from 1487 imgs
+Selected 1365 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1278 samples from 1487 imgs
+Selected 1378 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1289 samples from 1487 imgs
+Selected 1380 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1273 samples from 1487 imgs
+Selected 1387 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1256 samples from 1487 imgs
+Selected 1360 samples from 1487 imgs
+Round   2, Average loss 1.619
+Round 2, Domain: mnist_m, Testing accuracy: 57.61
+Round 2, Domain: syn, Testing accuracy: 54.87
+Round 2, Domain: svhn, Testing accuracy: 47.42
+Round 2, Domain: usps, Testing accuracy: 92.10
+Round 3 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 4819 samples from 11000 imgs
+Selected 5848 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 4887 samples from 11000 imgs
+Selected 6267 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 4780 samples from 11000 imgs
+Selected 5891 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 4895 samples from 11000 imgs
+Selected 5878 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 4859 samples from 11000 imgs
+Selected 5939 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 2479 samples from 5000 imgs
+Selected 2422 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 2401 samples from 5000 imgs
+Selected 2392 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 2383 samples from 5000 imgs
+Selected 2425 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 2358 samples from 5000 imgs
+Selected 2297 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 2433 samples from 5000 imgs
+Selected 2356 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 1692 samples from 14651 imgs
+Selected 3046 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 1694 samples from 14651 imgs
+Selected 2845 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 1720 samples from 14651 imgs
+Selected 2921 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 1637 samples from 14651 imgs
+Selected 2970 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 1721 samples from 14651 imgs
+Selected 3068 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1301 samples from 1487 imgs
+Selected 1373 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1310 samples from 1487 imgs
+Selected 1394 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1314 samples from 1487 imgs
+Selected 1391 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1300 samples from 1487 imgs
+Selected 1393 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1292 samples from 1487 imgs
+Selected 1365 samples from 1487 imgs
+Round   3, Average loss 1.604
+Round 3, Domain: mnist_m, Testing accuracy: 60.85
+Round 3, Domain: syn, Testing accuracy: 58.90
+Round 3, Domain: svhn, Testing accuracy: 51.43
+Round 3, Domain: usps, Testing accuracy: 92.74
+Round 4 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 5071 samples from 11000 imgs
+Selected 6328 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 5131 samples from 11000 imgs
+Selected 6433 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 4981 samples from 11000 imgs
+Selected 6305 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 5100 samples from 11000 imgs
+Selected 6355 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 5092 samples from 11000 imgs
+Selected 6626 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 2727 samples from 5000 imgs
+Selected 2761 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 2649 samples from 5000 imgs
+Selected 2609 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 2644 samples from 5000 imgs
+Selected 2604 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 2584 samples from 5000 imgs
+Selected 2621 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 2664 samples from 5000 imgs
+Selected 2673 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 2350 samples from 14651 imgs
+Selected 4218 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 2290 samples from 14651 imgs
+Selected 3760 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 2360 samples from 14651 imgs
+Selected 3787 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 2265 samples from 14651 imgs
+Selected 4082 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 2356 samples from 14651 imgs
+Selected 3844 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1311 samples from 1487 imgs
+Selected 1388 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1320 samples from 1487 imgs
+Selected 1390 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1324 samples from 1487 imgs
+Selected 1395 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1321 samples from 1487 imgs
+Selected 1405 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1303 samples from 1487 imgs
+Selected 1378 samples from 1487 imgs
+Round   4, Average loss 1.589
+Round 4, Domain: mnist_m, Testing accuracy: 64.52
+Round 4, Domain: syn, Testing accuracy: 62.08
+Round 4, Domain: svhn, Testing accuracy: 54.15
+Round 4, Domain: usps, Testing accuracy: 92.53
+Round 5 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 5388 samples from 11000 imgs
+Selected 6909 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 5451 samples from 11000 imgs
+Selected 7013 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 5300 samples from 11000 imgs
+Selected 6739 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 5395 samples from 11000 imgs
+Selected 7026 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 5358 samples from 11000 imgs
+Selected 6739 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 2981 samples from 5000 imgs
+Selected 2984 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 2933 samples from 5000 imgs
+Selected 2928 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 2901 samples from 5000 imgs
+Selected 2968 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 2839 samples from 5000 imgs
+Selected 2885 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 2938 samples from 5000 imgs
+Selected 2934 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 3156 samples from 14651 imgs
+Selected 4910 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 3106 samples from 14651 imgs
+Selected 5375 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 3215 samples from 14651 imgs
+Selected 5041 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 3045 samples from 14651 imgs
+Selected 5407 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 3208 samples from 14651 imgs
+Selected 5427 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1317 samples from 1487 imgs
+Selected 1388 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1343 samples from 1487 imgs
+Selected 1402 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1336 samples from 1487 imgs
+Selected 1401 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1334 samples from 1487 imgs
+Selected 1408 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1314 samples from 1487 imgs
+Selected 1366 samples from 1487 imgs
+Round   5, Average loss 1.583
+Round 5, Domain: mnist_m, Testing accuracy: 69.04
+Round 5, Domain: syn, Testing accuracy: 65.13
+Round 5, Domain: svhn, Testing accuracy: 56.70
+Round 5, Domain: usps, Testing accuracy: 93.23
+Round 6 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 5695 samples from 11000 imgs
+Selected 7078 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 5785 samples from 11000 imgs
+Selected 7214 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 5647 samples from 11000 imgs
+Selected 6731 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 5752 samples from 11000 imgs
+Selected 7278 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 5685 samples from 11000 imgs
+Selected 7127 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 3187 samples from 5000 imgs
+Selected 3201 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 3157 samples from 5000 imgs
+Selected 3202 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 3150 samples from 5000 imgs
+Selected 3203 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 3083 samples from 5000 imgs
+Selected 3136 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 3173 samples from 5000 imgs
+Selected 3170 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 4033 samples from 14651 imgs
+Selected 6634 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 3969 samples from 14651 imgs
+Selected 7826 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 4062 samples from 14651 imgs
+Selected 5859 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 3897 samples from 14651 imgs
+Selected 6221 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 4058 samples from 14651 imgs
+Selected 7585 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1339 samples from 1487 imgs
+Selected 1406 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1360 samples from 1487 imgs
+Selected 1405 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1354 samples from 1487 imgs
+Selected 1405 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1350 samples from 1487 imgs
+Selected 1421 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1325 samples from 1487 imgs
+Selected 1394 samples from 1487 imgs
+Round   6, Average loss 1.584
+Round 6, Domain: mnist_m, Testing accuracy: 69.14
+Round 6, Domain: syn, Testing accuracy: 68.47
+Round 6, Domain: svhn, Testing accuracy: 61.81
+Round 6, Domain: usps, Testing accuracy: 93.17
+Round 7 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 5874 samples from 11000 imgs
+Selected 7083 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 5988 samples from 11000 imgs
+Selected 7637 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 5819 samples from 11000 imgs
+Selected 7503 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 5914 samples from 11000 imgs
+Selected 7487 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 5881 samples from 11000 imgs
+Selected 7329 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 3417 samples from 5000 imgs
+Selected 3331 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 3373 samples from 5000 imgs
+Selected 3394 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 3368 samples from 5000 imgs
+Selected 3412 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 3328 samples from 5000 imgs
+Selected 3396 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 3409 samples from 5000 imgs
+Selected 3497 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 4716 samples from 14651 imgs
+Selected 6849 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 4737 samples from 14651 imgs
+Selected 7314 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 4753 samples from 14651 imgs
+Selected 7090 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 4634 samples from 14651 imgs
+Selected 6882 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 4777 samples from 14651 imgs
+Selected 7026 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1350 samples from 1487 imgs
+Selected 1393 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1362 samples from 1487 imgs
+Selected 1404 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1356 samples from 1487 imgs
+Selected 1404 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1361 samples from 1487 imgs
+Selected 1404 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1330 samples from 1487 imgs
+Selected 1396 samples from 1487 imgs
+Round   7, Average loss 1.570
+Round 7, Domain: mnist_m, Testing accuracy: 70.62
+Round 7, Domain: syn, Testing accuracy: 70.66
+Round 7, Domain: svhn, Testing accuracy: 63.56
+Round 7, Domain: usps, Testing accuracy: 93.33
+Round 8 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 6109 samples from 11000 imgs
+Selected 7770 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 6149 samples from 11000 imgs
+Selected 7572 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 6029 samples from 11000 imgs
+Selected 7522 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 6138 samples from 11000 imgs
+Selected 7569 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 6103 samples from 11000 imgs
+Selected 7694 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 3593 samples from 5000 imgs
+Selected 3507 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 3538 samples from 5000 imgs
+Selected 3452 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 3547 samples from 5000 imgs
+Selected 3588 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 3490 samples from 5000 imgs
+Selected 3515 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 3560 samples from 5000 imgs
+Selected 3491 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 5390 samples from 14651 imgs
+Selected 8690 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 5416 samples from 14651 imgs
+Selected 7665 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 5451 samples from 14651 imgs
+Selected 8084 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 5377 samples from 14651 imgs
+Selected 7765 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 5494 samples from 14651 imgs
+Selected 7601 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1359 samples from 1487 imgs
+Selected 1401 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1368 samples from 1487 imgs
+Selected 1409 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1364 samples from 1487 imgs
+Selected 1386 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1380 samples from 1487 imgs
+Selected 1412 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1340 samples from 1487 imgs
+Selected 1384 samples from 1487 imgs
+Round   8, Average loss 1.567
+Round 8, Domain: mnist_m, Testing accuracy: 70.66
+Round 8, Domain: syn, Testing accuracy: 72.61
+Round 8, Domain: svhn, Testing accuracy: 66.75
+Round 8, Domain: usps, Testing accuracy: 93.28
+Round 9 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 6218 samples from 11000 imgs
+Selected 7943 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 6255 samples from 11000 imgs
+Selected 7844 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 6157 samples from 11000 imgs
+Selected 7675 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 6221 samples from 11000 imgs
+Selected 7699 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 6217 samples from 11000 imgs
+Selected 7987 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 3715 samples from 5000 imgs
+Selected 3645 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 3642 samples from 5000 imgs
+Selected 3611 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 3671 samples from 5000 imgs
+Selected 3672 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 3609 samples from 5000 imgs
+Selected 3587 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 3697 samples from 5000 imgs
+Selected 3761 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 6006 samples from 14651 imgs
+Selected 8530 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 5953 samples from 14651 imgs
+Selected 8517 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 5941 samples from 14651 imgs
+Selected 8431 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 5927 samples from 14651 imgs
+Selected 8649 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 6001 samples from 14651 imgs
+Selected 8152 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1363 samples from 1487 imgs
+Selected 1401 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1369 samples from 1487 imgs
+Selected 1410 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1375 samples from 1487 imgs
+Selected 1410 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1384 samples from 1487 imgs
+Selected 1416 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1344 samples from 1487 imgs
+Selected 1398 samples from 1487 imgs
+Round   9, Average loss 1.565
+Round 9, Domain: mnist_m, Testing accuracy: 74.32
+Round 9, Domain: syn, Testing accuracy: 73.71
+Round 9, Domain: svhn, Testing accuracy: 66.07
+Round 9, Domain: usps, Testing accuracy: 93.33
+Round 10 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 6510 samples from 11000 imgs
+Selected 7990 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 6595 samples from 11000 imgs
+Selected 8140 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 6450 samples from 11000 imgs
+Selected 7962 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 6554 samples from 11000 imgs
+Selected 8112 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 6523 samples from 11000 imgs
+Selected 7894 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 3813 samples from 5000 imgs
+Selected 3873 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 3759 samples from 5000 imgs
+Selected 3764 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 3749 samples from 5000 imgs
+Selected 3673 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 3753 samples from 5000 imgs
+Selected 3681 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 3817 samples from 5000 imgs
+Selected 3834 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 6633 samples from 14651 imgs
+Selected 10083 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 6574 samples from 14651 imgs
+Selected 8305 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 6670 samples from 14651 imgs
+Selected 9213 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 6638 samples from 14651 imgs
+Selected 8534 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 6660 samples from 14651 imgs
+Selected 8642 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1369 samples from 1487 imgs
+Selected 1401 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1372 samples from 1487 imgs
+Selected 1412 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1376 samples from 1487 imgs
+Selected 1407 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1384 samples from 1487 imgs
+Selected 1412 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1359 samples from 1487 imgs
+Selected 1405 samples from 1487 imgs
+Round  10, Average loss 1.568
+Round 10, Domain: mnist_m, Testing accuracy: 74.06
+Round 10, Domain: syn, Testing accuracy: 75.13
+Round 10, Domain: svhn, Testing accuracy: 68.98
+Round 10, Domain: usps, Testing accuracy: 93.39
+Round 11 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 6658 samples from 11000 imgs
+Selected 8164 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 6706 samples from 11000 imgs
+Selected 8405 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 6594 samples from 11000 imgs
+Selected 8045 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 6625 samples from 11000 imgs
+Selected 8141 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 6683 samples from 11000 imgs
+Selected 8134 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 3910 samples from 5000 imgs
+Selected 3872 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 3855 samples from 5000 imgs
+Selected 3857 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 3875 samples from 5000 imgs
+Selected 3835 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 3846 samples from 5000 imgs
+Selected 3850 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 3911 samples from 5000 imgs
+Selected 3824 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 7238 samples from 14651 imgs
+Selected 9385 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 7197 samples from 14651 imgs
+Selected 9304 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 7189 samples from 14651 imgs
+Selected 9862 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 7204 samples from 14651 imgs
+Selected 9443 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 7206 samples from 14651 imgs
+Selected 9438 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1372 samples from 1487 imgs
+Selected 1401 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1379 samples from 1487 imgs
+Selected 1413 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1378 samples from 1487 imgs
+Selected 1416 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1388 samples from 1487 imgs
+Selected 1409 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1356 samples from 1487 imgs
+Selected 1389 samples from 1487 imgs
+Round  11, Average loss 1.560
+Round 11, Domain: mnist_m, Testing accuracy: 75.01
+Round 11, Domain: syn, Testing accuracy: 75.81
+Round 11, Domain: svhn, Testing accuracy: 69.99
+Round 11, Domain: usps, Testing accuracy: 93.28
+Round 12 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 6795 samples from 11000 imgs
+Selected 8038 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 6870 samples from 11000 imgs
+Selected 8345 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 6750 samples from 11000 imgs
+Selected 8044 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 6774 samples from 11000 imgs
+Selected 8491 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 6845 samples from 11000 imgs
+Selected 8228 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 3986 samples from 5000 imgs
+Selected 3923 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 3927 samples from 5000 imgs
+Selected 3913 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 3931 samples from 5000 imgs
+Selected 3933 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 3885 samples from 5000 imgs
+Selected 3885 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 3986 samples from 5000 imgs
+Selected 3932 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 7625 samples from 14651 imgs
+Selected 9921 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 7545 samples from 14651 imgs
+Selected 9286 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 7592 samples from 14651 imgs
+Selected 9946 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 7586 samples from 14651 imgs
+Selected 10302 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 7595 samples from 14651 imgs
+Selected 9999 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1376 samples from 1487 imgs
+Selected 1405 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1381 samples from 1487 imgs
+Selected 1417 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1380 samples from 1487 imgs
+Selected 1410 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1391 samples from 1487 imgs
+Selected 1419 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1364 samples from 1487 imgs
+Selected 1395 samples from 1487 imgs
+Round  12, Average loss 1.561
+Round 12, Domain: mnist_m, Testing accuracy: 74.86
+Round 12, Domain: syn, Testing accuracy: 76.58
+Round 12, Domain: svhn, Testing accuracy: 71.57
+Round 12, Domain: usps, Testing accuracy: 93.44
+Round 13 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 6882 samples from 11000 imgs
+Selected 8183 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 6951 samples from 11000 imgs
+Selected 8309 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 6862 samples from 11000 imgs
+Selected 8089 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 6848 samples from 11000 imgs
+Selected 8452 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 6909 samples from 11000 imgs
+Selected 8371 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 4061 samples from 5000 imgs
+Selected 4005 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 3959 samples from 5000 imgs
+Selected 3909 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 3985 samples from 5000 imgs
+Selected 3947 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 3916 samples from 5000 imgs
+Selected 3916 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 4026 samples from 5000 imgs
+Selected 3988 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 7879 samples from 14651 imgs
+Selected 9698 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 7766 samples from 14651 imgs
+Selected 9943 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 7834 samples from 14651 imgs
+Selected 9762 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 7752 samples from 14651 imgs
+Selected 10733 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 7826 samples from 14651 imgs
+Selected 10262 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1377 samples from 1487 imgs
+Selected 1406 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1386 samples from 1487 imgs
+Selected 1410 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1383 samples from 1487 imgs
+Selected 1413 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1394 samples from 1487 imgs
+Selected 1411 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1364 samples from 1487 imgs
+Selected 1399 samples from 1487 imgs
+Round  13, Average loss 1.559
+Round 13, Domain: mnist_m, Testing accuracy: 74.75
+Round 13, Domain: syn, Testing accuracy: 77.39
+Round 13, Domain: svhn, Testing accuracy: 73.31
+Round 13, Domain: usps, Testing accuracy: 93.60
+Round 14 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 6966 samples from 11000 imgs
+Selected 8223 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 7048 samples from 11000 imgs
+Selected 8653 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 6944 samples from 11000 imgs
+Selected 8478 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 6963 samples from 11000 imgs
+Selected 8382 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 7016 samples from 11000 imgs
+Selected 8644 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 4091 samples from 5000 imgs
+Selected 4119 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 4009 samples from 5000 imgs
+Selected 3961 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 4045 samples from 5000 imgs
+Selected 3967 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 3981 samples from 5000 imgs
+Selected 3986 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 4063 samples from 5000 imgs
+Selected 4034 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 8288 samples from 14651 imgs
+Selected 10495 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 8198 samples from 14651 imgs
+Selected 10271 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 8182 samples from 14651 imgs
+Selected 9310 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 8206 samples from 14651 imgs
+Selected 10039 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 8260 samples from 14651 imgs
+Selected 9936 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1378 samples from 1487 imgs
+Selected 1403 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1391 samples from 1487 imgs
+Selected 1413 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1387 samples from 1487 imgs
+Selected 1409 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1398 samples from 1487 imgs
+Selected 1420 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1367 samples from 1487 imgs
+Selected 1394 samples from 1487 imgs
+Round  14, Average loss 1.557
+Round 14, Domain: mnist_m, Testing accuracy: 75.96
+Round 14, Domain: syn, Testing accuracy: 77.79
+Round 14, Domain: svhn, Testing accuracy: 73.47
+Round 14, Domain: usps, Testing accuracy: 93.76
+Round 15 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 7106 samples from 11000 imgs
+Selected 8594 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 7180 samples from 11000 imgs
+Selected 8755 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 7066 samples from 11000 imgs
+Selected 8475 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 7100 samples from 11000 imgs
+Selected 8575 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 7183 samples from 11000 imgs
+Selected 8533 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 4115 samples from 5000 imgs
+Selected 4116 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 4033 samples from 5000 imgs
+Selected 4008 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 4065 samples from 5000 imgs
+Selected 4076 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 3992 samples from 5000 imgs
+Selected 4109 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 4093 samples from 5000 imgs
+Selected 4098 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 8412 samples from 14651 imgs
+Selected 10916 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 8347 samples from 14651 imgs
+Selected 10462 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 8363 samples from 14651 imgs
+Selected 10837 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 8337 samples from 14651 imgs
+Selected 10823 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 8393 samples from 14651 imgs
+Selected 10506 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1380 samples from 1487 imgs
+Selected 1404 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1387 samples from 1487 imgs
+Selected 1424 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1389 samples from 1487 imgs
+Selected 1416 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1398 samples from 1487 imgs
+Selected 1411 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1369 samples from 1487 imgs
+Selected 1382 samples from 1487 imgs
+Round  15, Average loss 1.555
+Round 15, Domain: mnist_m, Testing accuracy: 78.42
+Round 15, Domain: syn, Testing accuracy: 77.97
+Round 15, Domain: svhn, Testing accuracy: 71.64
+Round 15, Domain: usps, Testing accuracy: 93.55
+Round 16 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 7499 samples from 11000 imgs
+Selected 8695 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 7546 samples from 11000 imgs
+Selected 8768 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 7470 samples from 11000 imgs
+Selected 8356 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 7458 samples from 11000 imgs
+Selected 8754 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 7563 samples from 11000 imgs
+Selected 8792 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 4177 samples from 5000 imgs
+Selected 4151 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 4111 samples from 5000 imgs
+Selected 4033 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 4130 samples from 5000 imgs
+Selected 4070 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 4064 samples from 5000 imgs
+Selected 4065 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 4144 samples from 5000 imgs
+Selected 4160 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 8835 samples from 14651 imgs
+Selected 10698 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 8748 samples from 14651 imgs
+Selected 11179 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 8794 samples from 14651 imgs
+Selected 11051 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 8778 samples from 14651 imgs
+Selected 10431 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 8747 samples from 14651 imgs
+Selected 11010 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1384 samples from 1487 imgs
+Selected 1402 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1389 samples from 1487 imgs
+Selected 1420 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1392 samples from 1487 imgs
+Selected 1411 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1408 samples from 1487 imgs
+Selected 1422 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1376 samples from 1487 imgs
+Selected 1400 samples from 1487 imgs
+Round  16, Average loss 1.558
+Round 16, Domain: mnist_m, Testing accuracy: 76.23
+Round 16, Domain: syn, Testing accuracy: 78.83
+Round 16, Domain: svhn, Testing accuracy: 75.51
+Round 16, Domain: usps, Testing accuracy: 93.66
+Round 17 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 7344 samples from 11000 imgs
+Selected 8443 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 7415 samples from 11000 imgs
+Selected 8473 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 7363 samples from 11000 imgs
+Selected 8655 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 7356 samples from 11000 imgs
+Selected 8366 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 7447 samples from 11000 imgs
+Selected 8653 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 4184 samples from 5000 imgs
+Selected 4142 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 4114 samples from 5000 imgs
+Selected 4062 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 4130 samples from 5000 imgs
+Selected 4138 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 4073 samples from 5000 imgs
+Selected 4115 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 4176 samples from 5000 imgs
+Selected 4186 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 8940 samples from 14651 imgs
+Selected 10459 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 8855 samples from 14651 imgs
+Selected 10981 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 8831 samples from 14651 imgs
+Selected 11091 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 8778 samples from 14651 imgs
+Selected 10869 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 8895 samples from 14651 imgs
+Selected 10904 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1385 samples from 1487 imgs
+Selected 1407 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1394 samples from 1487 imgs
+Selected 1427 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1387 samples from 1487 imgs
+Selected 1412 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1403 samples from 1487 imgs
+Selected 1424 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1365 samples from 1487 imgs
+Selected 1400 samples from 1487 imgs
+Round  17, Average loss 1.552
+Round 17, Domain: mnist_m, Testing accuracy: 75.95
+Round 17, Domain: syn, Testing accuracy: 79.47
+Round 17, Domain: svhn, Testing accuracy: 76.27
+Round 17, Domain: usps, Testing accuracy: 93.76
+Round 18 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 7347 samples from 11000 imgs
+Selected 8670 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 7388 samples from 11000 imgs
+Selected 8818 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 7344 samples from 11000 imgs
+Selected 8592 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 7345 samples from 11000 imgs
+Selected 8738 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 7446 samples from 11000 imgs
+Selected 8703 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 4190 samples from 5000 imgs
+Selected 4171 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 4119 samples from 5000 imgs
+Selected 4144 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 4132 samples from 5000 imgs
+Selected 4168 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 4103 samples from 5000 imgs
+Selected 4119 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 4183 samples from 5000 imgs
+Selected 4129 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 9028 samples from 14651 imgs
+Selected 10776 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 8945 samples from 14651 imgs
+Selected 10999 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 8917 samples from 14651 imgs
+Selected 11059 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 8890 samples from 14651 imgs
+Selected 11166 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 9010 samples from 14651 imgs
+Selected 10561 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1383 samples from 1487 imgs
+Selected 1403 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1400 samples from 1487 imgs
+Selected 1416 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1393 samples from 1487 imgs
+Selected 1405 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1406 samples from 1487 imgs
+Selected 1423 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1371 samples from 1487 imgs
+Selected 1411 samples from 1487 imgs
+Round  18, Average loss 1.549
+Round 18, Domain: mnist_m, Testing accuracy: 77.70
+Round 18, Domain: syn, Testing accuracy: 79.80
+Round 18, Domain: svhn, Testing accuracy: 76.34
+Round 18, Domain: usps, Testing accuracy: 93.92
+Round 19 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 7506 samples from 11000 imgs
+Selected 8737 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 7541 samples from 11000 imgs
+Selected 8762 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 7464 samples from 11000 imgs
+Selected 8980 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 7496 samples from 11000 imgs
+Selected 8932 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 7610 samples from 11000 imgs
+Selected 8795 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 4220 samples from 5000 imgs
+Selected 4256 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 4148 samples from 5000 imgs
+Selected 4169 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 4177 samples from 5000 imgs
+Selected 4135 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 4122 samples from 5000 imgs
+Selected 4162 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 4201 samples from 5000 imgs
+Selected 4236 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 9210 samples from 14651 imgs
+Selected 10639 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 9111 samples from 14651 imgs
+Selected 11025 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 9124 samples from 14651 imgs
+Selected 11140 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 9094 samples from 14651 imgs
+Selected 11059 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 9210 samples from 14651 imgs
+Selected 10507 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1390 samples from 1487 imgs
+Selected 1414 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1400 samples from 1487 imgs
+Selected 1424 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1393 samples from 1487 imgs
+Selected 1419 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1407 samples from 1487 imgs
+Selected 1421 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1377 samples from 1487 imgs
+Selected 1407 samples from 1487 imgs
+Round  19, Average loss 1.548
+Round 19, Domain: mnist_m, Testing accuracy: 78.26
+Round 19, Domain: syn, Testing accuracy: 80.27
+Round 19, Domain: svhn, Testing accuracy: 76.42
+Round 19, Domain: usps, Testing accuracy: 93.76
+Round 20 --------------------------------
+Domain: mnist_m, user idx: 0
+Selected 7677 samples from 11000 imgs
+Selected 8839 samples from 11000 imgs
+Domain: mnist_m, user idx: 1
+Selected 7717 samples from 11000 imgs
+Selected 9045 samples from 11000 imgs
+Domain: mnist_m, user idx: 2
+Selected 7672 samples from 11000 imgs
+Selected 9016 samples from 11000 imgs
+Domain: mnist_m, user idx: 3
+Selected 7692 samples from 11000 imgs
+Selected 8911 samples from 11000 imgs
+Domain: mnist_m, user idx: 4
+Selected 7763 samples from 11000 imgs
+Selected 8920 samples from 11000 imgs
+Domain: syn, user idx: 0
+Selected 4231 samples from 5000 imgs
+Selected 4181 samples from 5000 imgs
+Domain: syn, user idx: 1
+Selected 4194 samples from 5000 imgs
+Selected 4202 samples from 5000 imgs
+Domain: syn, user idx: 2
+Selected 4194 samples from 5000 imgs
+Selected 4148 samples from 5000 imgs
+Domain: syn, user idx: 3
+Selected 4146 samples from 5000 imgs
+Selected 4121 samples from 5000 imgs
+Domain: syn, user idx: 4
+Selected 4235 samples from 5000 imgs
+Selected 4209 samples from 5000 imgs
+Domain: svhn, user idx: 0
+Selected 9431 samples from 14651 imgs
+Selected 11171 samples from 14651 imgs
+Domain: svhn, user idx: 1
+Selected 9317 samples from 14651 imgs
+Selected 11055 samples from 14651 imgs
+Domain: svhn, user idx: 2
+Selected 9304 samples from 14651 imgs
+Selected 11046 samples from 14651 imgs
+Domain: svhn, user idx: 3
+Selected 9294 samples from 14651 imgs
+Selected 11486 samples from 14651 imgs
+Domain: svhn, user idx: 4
+Selected 9387 samples from 14651 imgs
+Selected 11336 samples from 14651 imgs
+Domain: usps, user idx: 0
+Selected 1394 samples from 1487 imgs
+Selected 1412 samples from 1487 imgs
+Domain: usps, user idx: 1
+Selected 1407 samples from 1487 imgs
+Selected 1422 samples from 1487 imgs
+Domain: usps, user idx: 2
+Selected 1396 samples from 1487 imgs
+Selected 1426 samples from 1487 imgs
+Domain: usps, user idx: 3
+Selected 1411 samples from 1487 imgs
+Selected 1423 samples from 1487 imgs
+Domain: usps, user idx: 4
+Selected 1386 samples from 1487 imgs
+Selected 1408 samples from 1487 imgs
+Round  20, Average loss 1.549
+Round 20, Domain: mnist_m, Testing accuracy: 77.02
+Round 20, Domain: syn, Testing accuracy: 80.30
+Round 20, Domain: svhn, Testing accuracy: 77.55
+Round 20, Domain: usps, Testing accuracy: 93.82
