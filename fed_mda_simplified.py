@@ -13,7 +13,7 @@ import datetime
 
 from utils.options import args_parser
 from utils.lib import seed_everything, DatasetSplit, normalize
-from utils.sampling import mnist_iid, mnist_non_iid
+from utils.sampling import iid, non_iid
 
 from models.model import VGG5_ANN, VGG5_SNN_BNTT
 from models.test import test_img
@@ -35,30 +35,42 @@ if __name__ == '__main__':
     
     if args.wandb:
         wandb.init(project="FedSNN-MDA", name=args.wandb,
-                    config={"snn": True if args.snn else False, "iid": True if args.iid else False, "global epochs": args.epochs, "local epochs": args.local_ep, "num_users_per_domain": args.num_users_per_domain, "mda_threshold": args.mda_threshold, "timesteps": args.timesteps if args.snn else None, "alpha": None if args.iid else args.alpha})
+                    config={"snn": True if args.snn else False, "iid": True if args.iid else False, \
+                            "global epochs": args.epochs, "local epochs": args.local_ep, \
+                            "num_users_per_domain": args.num_users_per_domain, \
+                            "mda_threshold": args.mda_threshold, "mda_threshold_frac": args.mda_threshold_frac,\
+                            "timesteps": args.timesteps if args.snn else None, "alpha": None if args.iid else args.alpha})
 
     # load datasets and split users
-    # domains: mnist_m, syn, svhn, usps
-    domain_names = ["mnist_m", "syn", "svhn", "usps"]
-    train_datapaths = {domain_name : "/home/zy264/scratch60/FedMDA/digit5/{}/train_images".format(domain_name) for domain_name in domain_names}
-    test_datapaths = {domain_name : "/home/zy264/scratch60/FedMDA/digit5/{}/test_images".format(domain_name) for domain_name in domain_names}
-
     train_datasets, test_datasets = {}, {}
-    for domain_name in ["syn", "svhn"]:
-        transform = transforms.Compose([transforms.ToTensor()])
-        train_datasets[domain_name] = datasets.ImageFolder(train_datapaths[domain_name], transform=transform)
-        test_datasets[domain_name] = datasets.ImageFolder(test_datapaths[domain_name], transform=transform)
-    for domain_name in ["mnist_m", "usps"]:
-        transform = transforms.Compose([transforms.ToTensor(), transforms.Pad(2)])
-        train_datasets[domain_name] = datasets.ImageFolder(train_datapaths[domain_name], transform=transform)
-        test_datasets[domain_name] = datasets.ImageFolder(test_datapaths[domain_name], transform=transform)
+    if args.dataset == "digit5":
+        # digit5 domains: mnist_m, syn, svhn, usps
+        domain_names = ["mnist_m", "syn", "svhn", "usps"]
+        train_datapaths = {domain_name : "/home/zy264/scratch60/FedMDA/digit5/{}/train_images".format(domain_name) for domain_name in domain_names}
+        test_datapaths = {domain_name : "/home/zy264/scratch60/FedMDA/digit5/{}/test_images".format(domain_name) for domain_name in domain_names}
+        
+        for domain_name in ["syn", "svhn"]:
+            transform = transforms.Compose([transforms.ToTensor()])
+            train_datasets[domain_name] = datasets.ImageFolder(train_datapaths[domain_name], transform=transform)
+            test_datasets[domain_name] = datasets.ImageFolder(test_datapaths[domain_name], transform=transform)
+        for domain_name in ["mnist_m", "usps"]:
+            transform = transforms.Compose([transforms.ToTensor(), transforms.Pad(2)])
+            train_datasets[domain_name] = datasets.ImageFolder(train_datapaths[domain_name], transform=transform)
+            test_datasets[domain_name] = datasets.ImageFolder(test_datapaths[domain_name], transform=transform)
+    
+    elif args.dataset == "office31":
+        # office 31 domains: amazon, webcam, dslr
+        domain_names = ["webcam", "dslr"]
+        datapaths = {domain_name : "/home/zy264/scratch60/FedMDA/office31/{}".format(domain_name) for domain_name in domain_names}
+        
+        
 
     dict_users_by_domain = {}
     for domain_name in domain_names:
         if args.iid:
-            dict_users_by_domain[domain_name] = mnist_iid(train_datasets[domain_name], args.num_users_per_domain)
+            dict_users_by_domain[domain_name] = iid(train_datasets[domain_name], args.num_users_per_domain)
         else:
-            dict_users_by_domain[domain_name] = mnist_non_iid(train_datasets[domain_name], 10, args.num_users_per_domain)
+            dict_users_by_domain[domain_name] = non_iid(train_datasets[domain_name], 10, args.num_users_per_domain)
     
 
     # model
@@ -124,7 +136,8 @@ if __name__ == '__main__':
             avg_acc = sum(test_accs)/len(test_accs)
             ms_acc_test_list.append(avg_acc)
             ms_loss_test_list.append(avg_loss)
-            wandb.log({"Server_avg_test_loss": avg_loss, "Server_avg_test_acc": avg_acc, "Round": epoch+1})
+            if args.wandb:
+                wandb.log({"Server_avg_test_loss": avg_loss, "Server_avg_test_acc": avg_acc, "Round": epoch+1})
     
     f = open("./{}_{}_test_acc.txt".format("snn" if args.snn else "ann", str(args.mda_threshold)), "w")
     for i in range(len(ms_acc_test_list)):

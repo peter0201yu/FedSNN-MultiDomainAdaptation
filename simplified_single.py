@@ -43,6 +43,7 @@ if __name__=='__main__':
         ])
 
     target_train_dataset = datasets.ImageFolder(target_train_datapath, transform=transform)
+    print("Total data: ", len(target_train_dataset))
     # target_train_dl = DataLoader(target_train_dataset, batch_size=32, shuffle=True, drop_last=True)
     target_test_dataset = datasets.ImageFolder(target_test_datapath, transform=transform)
     target_test_dl = DataLoader(target_test_dataset, batch_size=32, shuffle=True, drop_last=True)
@@ -55,18 +56,16 @@ if __name__=='__main__':
         net = VGG5_ANN().cuda()
 
     net.load_state_dict(torch.load(source_modelpath))
-    print ("Model initialized using pretrained model")
+    print("Model initialized using pretrained model")
 
     epochs = 40
     eval_every = 1
     batch_size = 32
 
-    if args.snn:
-        threshold = 2.0 # empirical value! 
-    else:
-        threshold = 0.2
+    threshold = 1.8
+    print("Threshold: ", threshold)
     
-    optimizer = torch.optim.SGD(net.parameters(), lr=0.01) # use default momentum, weight decay
+    optimizer = torch.optim.SGD(net.parameters(), lr=0.001) # use default momentum, weight decay
     loss_func = torch.nn.CrossEntropyLoss()
 
     epoch_loss = []
@@ -81,17 +80,26 @@ if __name__=='__main__':
 
         forward_dl = DataLoader(target_train_dataset, batch_size=32, shuffle=False, drop_last=True)
         selected_samples = []
+        pseudo_labels = []
+
         for idx, (imgs, labels) in enumerate(forward_dl):
             probs = net(imgs.cuda()).cpu().detach()
             for i in range(batch_size):
-                # print(np.absolute(np.array(probs[i])))
-                # print(stats.entropy(np.absolute(np.array(probs[i]))))
-                if stats.entropy(np.absolute(np.array(probs[i]))) < threshold:
+                if min(np.array(probs[i])) < 0:
+                    biased = np.array(probs[i]) - min(np.array(probs[i]))
+                else:
+                    biased = np.array(probs[i])
+
+                if stats.entropy(biased) < threshold:
                     selected_samples.append(idx * batch_size + i)
 
+                y_pred = np.where(biased == np.amax(biased))[0][0]
+                pseudo_labels.append(y_pred)
+
+
         print("Selected %d samples" % len(selected_samples))
-        
-        confident_train_dataset = DatasetSplit(target_train_dataset, selected_samples)
+
+        confident_train_dataset = DatasetSplit(target_train_dataset, selected_samples, pseudo_labels=pseudo_labels)
         train_dl = DataLoader(confident_train_dataset, batch_size=32, shuffle=True, drop_last=True)
         
         net.train()

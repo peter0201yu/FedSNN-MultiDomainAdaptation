@@ -11,19 +11,8 @@ from sklearn import metrics
 import sys
 import os
 from scipy import stats
+from utils.lib import DatasetSplit
 
-
-class DatasetSplit(Dataset):
-    def __init__(self, dataset, idxs):
-        self.dataset = dataset
-        self.idxs = list(idxs)
-
-    def __len__(self):
-        return len(self.idxs)
-
-    def __getitem__(self, item):
-        image, label = self.dataset[self.idxs[item]]
-        return image, label
 
 class LocalUpdate(object):
     def __init__(self, args, dataset=None, idxs=None):
@@ -71,6 +60,12 @@ class LocalUpdate(object):
         loss_func = torch.nn.CrossEntropyLoss()
         mda_threshold = self.args.mda_threshold
         mda_threshold_frac = self.args.mda_threshold_frac
+
+        if mda_threshold is None and mda_threshold_frac is None:
+            raise Exception("No mda threshold or fraction specified.")
+        elif mda_threshold is not None and mda_threshold_frac is not None:
+            raise Exception("Conflicting args: cannot have mda_threshold and mda_threshold_frac simultaneously.")
+
         batch_size = self.args.bs
 
 
@@ -85,6 +80,7 @@ class LocalUpdate(object):
             else:
                 forward_dl = DataLoader(self.dataset, batch_size=batch_size, shuffle=False, drop_last=True)
                 output_entropies = []
+                pseudo_labels = []
                 selected_samples = []
                 for idx, (imgs, labels) in enumerate(forward_dl):
                     probs = net(imgs.cuda()).cpu().detach()
@@ -102,13 +98,17 @@ class LocalUpdate(object):
                         elif mda_threshold_frac is not None:
                             output_entropies.append(etp)
 
+                        y_pred = np.where(biased == np.amax(biased))[0][0]
+                        pseudo_labels.append(y_pred)
+
                 if mda_threshold_frac is not None:
                     selected_number = int(len(self.dataset) * mda_threshold_frac)
                     selected_samples = sorted(range(len(output_entropies)), key=lambda i: output_entropies[i])[:selected_number]
             
             print("Selected {} samples from {} imgs".format(len(selected_samples), len(self.dataset) // batch_size * batch_size))
-            
-            confident_train_dataset = DatasetSplit(self.dataset, selected_samples)
+
+            # generate new dataset with pseudo labels
+            confident_train_dataset = DatasetSplit(self.dataset, selected_samples, pseudo_labels=pseudo_labels)
             train_dl = DataLoader(confident_train_dataset, batch_size=batch_size, shuffle=True, drop_last=True)
             
             net.train()

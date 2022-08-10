@@ -13,15 +13,18 @@ def seed_everything(seed=1234):
     os.environ['PYTHONHASHSEED'] = str(seed)
 
 class DatasetSplit(Dataset):
-    def __init__(self, dataset, idxs):
+    def __init__(self, dataset, idxs, pseudo_labels=None):
         self.dataset = dataset
         self.idxs = list(idxs)
+        self.pseudo_labels = pseudo_labels
 
     def __len__(self):
         return len(self.idxs)
 
     def __getitem__(self, item):
         image, label = self.dataset[self.idxs[item]]
+        if self.pseudo_labels:
+            label = self.pseudo_labels[self.idxs[item]]
         return image, label
 
 def normalize(v):

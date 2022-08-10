@@ -10,7 +10,7 @@ import sys
 import os
 
 
-def test_img(net_g, datatest, args):
+def test_img(net_g, datatest, args, return_logits=False):
     net_g.eval()
     # testing
     test_loss = 0
@@ -20,7 +20,10 @@ def test_img(net_g, datatest, args):
     for idx, (data, target) in enumerate(data_loader):
         if args.gpu != -1:
             data, target = data.cuda(), target.cuda()
-        log_probs = net_g(data)
+        if return_logits:
+            logits, log_probs = net_g(data)
+        else:
+            log_probs = net_g(data)
         # sum up batch loss
         test_loss += F.cross_entropy(log_probs, target, reduction='sum').item()
         # get the index of the max log-probability

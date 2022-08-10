@@ -50,9 +50,9 @@ from torchvision import datasets, transforms
 #             dict_users[i] = np.concatenate((dict_users[i], idxs[rand*num_imgs:(rand+1)*num_imgs]), axis=0)
 #     return dict_users
 
-def mnist_iid(dataset, num_users):
+def iid(dataset, num_users):
     """
-    Sample I.I.D. client data from CIFAR10 dataset
+    Sample I.I.D. client data from dataset
     :param dataset:
     :param num_users:
     :return: dict of image index
@@ -64,7 +64,7 @@ def mnist_iid(dataset, num_users):
         all_idxs = list(set(all_idxs) - dict_users[i])
     return dict_users
 
-def mnist_non_iid(dataset, num_classes, num_users, alpha = 0.5):
+def non_iid(dataset, num_classes, num_users, alpha = 0.5):
     N = len(dataset)
     min_size = 0
     print("Dataset size:", N)
